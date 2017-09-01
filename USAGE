@@ -1,0 +1,13 @@
+Create table in MapR-DB-JSON:
+
+create /part
+create /partsupp
+create /supplier
+create /lineitem
+create /orders
+create /customer
+create /nation
+create /region
+
+cd TPC-H-Hive
+./generate.sh 300
